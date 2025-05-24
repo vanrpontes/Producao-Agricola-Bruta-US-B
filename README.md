@@ -12,6 +12,7 @@ O projeto utiliza **Python**, **Pandas**, **Streamlit** e **Altair** para realiz
 - Python
 - Pandas
 - Streamlit
+- Altair
 
 ## Dataset
 Os dados estão disponíveis neste repositório, no arquivo `agri.csv`. Fonte: [United Nations Data](https://data.un.org/) 
