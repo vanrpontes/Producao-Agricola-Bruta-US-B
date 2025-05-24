@@ -22,3 +22,5 @@ Você pode executar o projeto localmente com Streamlit ou adaptar para serviços
 
 ## Observação
 Os dados podem ser utilizados para fins de estudo, exploração e visualização.
+
+# Veja o app funcionando aqui: [Produção Agrícola Bruta App](https://appucao-agricola-bruta-us-b.streamlit.app/)
