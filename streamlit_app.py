@@ -50,10 +50,10 @@ else:
     # Criar gráfico de área
     chart = (
         alt.Chart(data)
-        .mark_area(opacity=0.5, interpolate='monotone')
+        .mark_area(opacity=0.3, interpolate='monotone')
         .encode(
             x=alt.X("Ano:T", title="Ano"),
-            y=alt.Y("Produção Agrícola Bruta (US$ B):Q", stack=None, title="Produção (US$ Bilhões)"),
+            y=alt.Y("Produção Agrícola Bruta (US$ B):Q", stack=None, title="Produção (US$ B)"),
             color=alt.Color("Region:N", legend=alt.Legend(title="País")),
             tooltip=["Ano:T", "Region:N", "Produção Agrícola Bruta (US$ B):Q"]
         )
