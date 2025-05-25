@@ -39,7 +39,7 @@ else:
     data /= 1_000_000.0
 
     st.subheader("Produção Agrícola Bruta (US$ B)")
-    st.dataframe(data.sort_index(), height=300)
+    st.dataframe(data.sort_index(), height=180)
 
     # Preparar dados para gráfico
     data = data.T.reset_index()  # resetar anos para coluna
